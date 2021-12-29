@@ -1,17 +1,21 @@
-Single-server queueing system
+Single-product inventory system
 
-Mean interarrival time 1.0 
+ initial inventory lvl 0 items
 
-Mean service time 0.5 
+Number of demand sizes 4 
 
-Length of the simulation 480 
+Distribution function of demand sizes 0.167  0.5  0.833  1.0  
+Mean interdemand time 0.1 
 
-Average delay in queue  3.266048940892141 minutes
+Delivery lag range 0.5 to 1.0 months
 
-Average no in queue  0.3487457893981418
+Length of the simulation 120 months
 
-Server Utilization  0.47944482076296846
+K = 32.0   i = 3.0   h = 1.0   pi = 5.0 
 
-Number of delays completed  488
+Number of policies 1 
 
-Number of Customer Balk  77
+                      Average                       Average                        Average             Average
+ Policy             total cost                     ordering cost                  holding cost         shortage cost
+policy (20,100)     132.48279937918176            87.05                         37.212464014962926         8.220335364218835 
+
