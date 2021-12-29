@@ -1,0 +1,17 @@
+Single-server queueing system
+
+Mean interarrival time 1.0 
+
+Mean service time 0.5 
+
+Length of the simulation 480 
+
+Average delay in queue  3.266048940892141 minutes
+
+Average no in queue  0.3487457893981418
+
+Server Utilization  0.47944482076296846
+
+Number of delays completed  488
+
+Number of Customer Balk  77
