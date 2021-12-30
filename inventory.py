@@ -16,6 +16,12 @@ def initialization():
 
     global sim_time, inv_level, initial_inv_level, time_last_event, total_ordering_cost, area_holding, area_shortage, time_next_event, mean_interdemand, num_months
 
+    sim_time = 0.0
+    time_last_event = 0.0
+    total_ordering_cost = 0.0
+    area_holding = 0.0
+    area_shortage = 0.0
+
     inv_level = initial_inv_level
 
     time_next_event[1] = 1.0 * 10**30
@@ -177,7 +183,7 @@ if __name__ == '__main__':
         bigs = int(input())
         initialization()
 
-        while (next_event_type != 3):
+        while True:
 
             timing()
             update_time_avg_stats()
@@ -190,6 +196,7 @@ if __name__ == '__main__':
                 evaluate()
             elif (next_event_type == 3):
                 report()
+                break
 
     input_file.close()
     output_file.close()
